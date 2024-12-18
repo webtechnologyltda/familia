@@ -17,7 +17,7 @@
                     </div>
 
                     <p class="mt-4 text-white text-center text-2xl font-bangers uppercase">Informações de Pagamento</p>
-                    <img class="mt-8 mb-8 mx-auto" src="{{ asset('img/qr_code_pix.png') }}?20231021" alt="qrcode pix" width="150" />
+                    <img class="mt-8 mb-8 mx-auto" src="{{ asset('img/qr_code_pix.png') }}?20241021" alt="qrcode pix" width="150" />
 
                     <div class="grid justify-items-center mb-4">
                         <button
@@ -51,7 +51,7 @@
                             <div class="mt-2 grid justify-items-center">
                                 <a target="_blank"
                                    href="https://wa.me/55{{str_replace(['(', ')', '-', ' '], '', $this->settings['telefone_atendente'])}}?text=Ol%C3%A1+tenho+uma+d%C3%BAvida+sobre+o+Trekking%2C+consegue+me+ajudar+%3F"
-                                   class=" bg-color1 rounded mt-8 mb-8 p-2 w-full lg:w-[50%]  sm:p-4sm:max-w-full
+                                   class=" bg-color1 rounded mt-8 mb-8 p-2 w-full lg:w-[50%] sm:p-4sm:max-w-full
                                    flex items-center justify-center text-[12px] hover:bg-amber-600 hover:font-bold
                                    transition-all duration-500 relative text-center text-md text-black font-bold ">
                                     <span class="relative text-center text-lg text-gray-950 font-bold">Falar com atendente</span>

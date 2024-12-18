@@ -1,10 +1,11 @@
-<section class="relative  w-full flex justify-center mt-[120px]">
-    <div class="w-[700px] md:w-[900px] container h-auto  ">
-        <h1 class="w-full text-white  text-7xl font-secondary text-center uppercase tracking-widest mt-48 font-bold">
+<section class="relative  w-full flex justify-center mt-[240px]">
+    <div class="w-[700px]  md:w-[900px] container h-auto  ">
+        <h1 class="w-full text-white  text-3xl sm:text-5xl lg:text-7xl font-secondary text-center uppercase tracking-widest mt-24 sm:mt-48 font-bold">
             6º Acampamento de Famílias
         </h1>
 
-        <p class="w-full mt-12 text-center uppercase  font-bold text-sm text-white tracking-widest [word-spacing:8px] mb-4"> Dias 14 a 17 de Novembro</p>
+
+        <p class="w-full mt-16 text-center uppercase  font-bold text-sm text-white tracking-widest [word-spacing:8px] mb-4"> Dias 24, 25 e 26 de Janeiro</p>
 
 
         <div class="mt-8 grid justify-items-center">

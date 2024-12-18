@@ -419,7 +419,7 @@ class CampistaForm extends Component implements HasForms
                 }
             $count = count($familiares);
                 $teste = Lancamento::create( [
-                    'nome' => 'Campista - ' . $campista->nome . ' - ' . $pai . ' ' . $mae,
+                    'nome' => 'Campista - ' . $campista->nome . ' - ' . $pai ?? $mae ?? '',
                     'descricao' => 'Inscricão campista: ' . $campista->nome,
                     'data' => Carbon::now(),
                     'user_id' => 1,

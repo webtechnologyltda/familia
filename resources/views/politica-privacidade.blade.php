@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Trekking - Politica de Privacidade</title>
+    <title>Acampamento de familias - Politica de Privacidade</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ url(asset('img/logo_simple.png')) }}?20231011">
+    <link rel="shortcut icon" href="{{ url(asset('img/logo_sem_nome.png')) }}?20231011">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,24 +30,8 @@
         gtag('config', 'G-W7WHMPQ4CM');
     </script>
 </head>
-<body class="bg-pink-600 scrollbar-thin scrollbar-track-gray-950 scrollbar-thumb-gray-800 scrollbar-thumb-rounded-full">
+<body class="">
 
-    <div class="preloader">
-        <div class="loader">
-            <div class="ytp-spinner">
-                <div class="ytp-spinner-container">
-                    <div class="ytp-spinner-rotator">
-                        <div class="ytp-spinner-left">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                        <div class="ytp-spinner-right">
-                            <div class="ytp-spinner-circle"></div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
     <img src="{{ asset('img/fundo.jpg') }}" class="top-0 min-h-full object-cover -z-20 absolute opacity-100 hidden md:block">
 
@@ -59,7 +43,7 @@
         <h1 class="text-3xl font-bold mb-4 pt-8">Política de Privacidade</h1>
         <p class="mb-4">
             A sua privacidade é importante para nós. É política da Web Technology respeitar a sua privacidade em
-            relação a qualquer informação sua que possamos coletar no site do Trekking, e outros sites que possuímos
+            relação a qualquer informação sua que possamos coletar no site do Acampamento de familias, e outros sites que possuímos
             e operamos.
         </p>
 

@@ -81,14 +81,14 @@ class EquipeTrabalhoForm extends Component implements HasForms
 
 
             $teste = Lancamento::create( [
-                'nome' => 'Equipe de trabalho - ' . $voluntario->nome . ' - ' . $pai . ' ' . $mae,
+                'nome' => 'Equipe de trabalho - ' . $voluntario->nome . ' - ' . $pai ?? $mae ?? '',
                 'descricao' => 'Inscricão Equipe de trabalho: ' . $voluntario->nome,
                 'data' => Carbon::now(),
                 'user_id' => 1,
                 'tipo' => 0,
                 'forma_pagamento' => 4,
                 'status' => StatusLacamento::Pendente->value,
-                'valor' => ((200 * $count) * 100),
+                'valor' => ((80 * $count) * 100),
             ]);
 
 

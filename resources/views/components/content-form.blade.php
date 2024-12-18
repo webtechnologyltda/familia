@@ -25,7 +25,7 @@
                          width="150"/>
                     <div class="grid justify-items-center mb-4">
                         <button
-                            onclick="navigator.clipboard.writeText('00020126910014br.gov.bcb.pix01368c973c48-8687-4977-b585-cb4cfeb9d7a30229ACAMPAMENTO TK  NAVEGANTES SC5204000053039865406250.005802BR5919DIOCESE DE BLUMENAU6010NAVEGANTES62290525VE7Y10G0K87QFK28YPAD0HGV463047FBD')"
+                            onclick="navigator.clipboard.writeText('00020126580014br.gov.bcb.pix01367f1cd711-a519-424b-a03e-d2faf44a379e5204000053039865802BR5919DIOCESE DE BLUMENAU6010NAVEGANTES62290525CDERT4PSJPM9L1ZMHS7PY2DUS63042DB1')"
                             type="button"
                             class="text-gray-950 text-md bg-gray-200 rounded-sm p-2 flex justify-between">
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24"

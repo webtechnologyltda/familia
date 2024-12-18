@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Trekking- Termo de Inscrição</title>
+    <title>Acampamento de familias- Termo de Inscrição</title>
     <!-- Favicon -->
-    <link rel="shortcut icon" href="{{ url(asset('img/logo_simple.png')) }}?20231011">
+    <link rel="shortcut icon" href="{{ url(asset('img/logo_sem_nome.png')) }}?20231011">
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,24 +35,9 @@
         gtag('config', 'G-W7WHMPQ4CM');
     </script>
 </head>
-<body class="bg-pink-600 scrollbar-thin scrollbar-track-gray-950 scrollbar-thumb-gray-800 scrollbar-thumb-rounded-full">
+<body class="">
 
-<div class="preloader">
-    <div class="loader">
-        <div class="ytp-spinner">
-            <div class="ytp-spinner-container">
-                <div class="ytp-spinner-rotator">
-                    <div class="ytp-spinner-left">
-                        <div class="ytp-spinner-circle"></div>
-                    </div>
-                    <div class="ytp-spinner-right">
-                        <div class="ytp-spinner-circle"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
+
 
 <img src="{{ asset('img/fundo.jpg') }}"
      class="top-0 object-cover -z-20 absolute opacity-100 hidden md:block">
@@ -65,7 +50,7 @@
 <div class="container mx-auto text-black bg-white mt-10 px-8 rounded-xl relative z-10">
     <h1 class="text-3xl font-bold mb-4">Termo de Inscrição</h1>
     <p class="mb-4">
-        Agradecemos o seu interesse e apoio ao acampamento Trekking. É importante esclarecer que, ao realizar a inscrição, você está contribuindo financeiramente para a realização do acampamento, ajudando a cobrir despesas como organização, infraestrutura e materiais necessários para a sua execução.
+        Agradecemos o seu interesse e apoio ao acampamento Acampamento de familias. É importante esclarecer que, ao realizar a inscrição, você está contribuindo financeiramente para a realização do acampamento, ajudando a cobrir despesas como organização, infraestrutura e materiais necessários para a sua execução.
     </p>
 
     <h2 class="text-2xl font-semibold mb-2">1. Natureza de Doação</h2>
@@ -94,7 +79,7 @@
     </p>
 
     <p class="mt-8 text-md text-center text-gray-600 pb-10">
-        Esta política de não devolução é válida para todas as inscrições realizadas no evento Trekking e está sujeita a alterações sem aviso prévio, conforme necessário para garantir a melhor execução do acampamento.
+        Esta política de não devolução é válida para todas as inscrições realizadas no evento Acampamento de familias e está sujeita a alterações sem aviso prévio, conforme necessário para garantir a melhor execução do acampamento.
     </p>
 </div>
 </body>

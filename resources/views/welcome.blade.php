@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{config('app.name')}}</title>
-    <link rel="icon" type="image/png" href="{{ asset('img/logo_light.png') }}">
+    <link rel="icon" type="image/png" href="{{ asset('img/logo_sem_nome.png') }}">
     @filamentStyles
     @livewireStyles
     @vite(['resources/css/app.css', 'resources/js/app.js'])
