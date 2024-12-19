@@ -62,7 +62,7 @@
 
 
                 <p class="w-full mt-2 text-center uppercase  font-bold text-sm text-white tracking-widest [word-spacing:8px] mb-4">
-                    Dias 26 à 30 de Dezembro</p>
+                    Dias 24 a 26 de Janeiro</p>
 
 
                 <div class="mt-8 grid justify-items-center">

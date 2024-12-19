@@ -52,7 +52,7 @@
                             </a>
                         </div>
                         <p class="text-center  text-red-600 xl:text-md ">Obrigatório <br>levar termo assinado no dia.  </p>
-                        <a href="{{ route('pdf.show', ['filename' =>'termo.pdf'  ]) }}"
+                        <a href="{{ route('pdf.show', ['filename' =>'termo_equipe.pdf'  ]) }}"
                            class=" bg-red-600 rounded mt-8 mb-8 p-2 w-full   sm:p-4sm:max-w-full
                                    flex items-center justify-center text-[12px] hover:bg-amber-600 hover:font-bold
                                    transition-all duration-500 relative text-center text-md text-black font-bold">TERMO RESPONDABILIDADE</a>
