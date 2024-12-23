@@ -17,12 +17,12 @@ class EquipeTrabalho extends Model implements \OwenIt\Auditing\Contracts\Auditab
     protected $fillable = [
         'nome',
         'avatar_url',
-        'data_form',
+        'form_data',
         'status',
     ];
 
     protected $casts = [
-        'data_form' => 'array',
+        'form_data' => 'array',
         'avatar_url' => 'string',
         'status' => StatusInscricaoEquipeTrabalho::class,
     ];

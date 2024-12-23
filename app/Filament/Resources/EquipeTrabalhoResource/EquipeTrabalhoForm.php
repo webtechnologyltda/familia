@@ -135,7 +135,7 @@ abstract class EquipeTrabalhoForm
                             Repeater::make('form_data.familiares')
                                 ->schema([
                                     TextInput::make('nome')->required()->columnSpanFull(),
-                                    TextInput::make('Idade')->required(),
+                                    TextInput::make('Idade')->numeric()->required(),
                                     Select::make('parentesco')
                                         ->label('Parentesco')
                                         ->options([
@@ -149,6 +149,12 @@ abstract class EquipeTrabalhoForm
                                     Radio::make('tamanho_camiseta')
                                         ->label('Tamanho da camiseta')
                                         ->options([
+                                            '2' => '2',
+                                            '4' => '4',
+                                            '6' => '6',
+                                            '8' => '8',
+                                            '10' => '10',
+                                            '12' => '12',
                                             '14' => '14',
                                             'PP' => 'PP',
                                             'P' => 'P',
@@ -225,7 +231,11 @@ abstract class EquipeTrabalhoForm
 
 
 
-                                ])->columnSpanFull()->columns(2)->addActionLabel( 'Adicionar novo familiar' ),
+                                ])
+                                ->columnSpanFull()
+                                ->columns(2)
+                                ->minItems(1)
+                                ->addActionLabel( 'Adicionar novo familiar' ),
                             Grid::make('Endereço')
                                 ->columns([
                                     'default' => 1,

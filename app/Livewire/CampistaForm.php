@@ -149,7 +149,7 @@ class CampistaForm extends Component implements HasForms
                         Repeater::make('form_data.familiares')
                             ->schema([
                                 TextInput::make('nome')->required()->columnSpanFull(),
-                                TextInput::make('Idade')->required(),
+                                TextInput::make('Idade')->numeric()->required(),
                                 Select::make('parentesco')
                                     ->label('Parentesco')
                                     ->options([
@@ -160,9 +160,15 @@ class CampistaForm extends Component implements HasForms
 
                                     ])
                                     ->required(),
-                                Radio::make('form_data.tamanho_camiseta')
+                                Radio::make('tamanho_camiseta')
                                     ->label('Tamanho da camiseta')
                                     ->options([
+                                        '2' => '2',
+                                        '4' => '4',
+                                        '6' => '6',
+                                        '8' => '8',
+                                        '10' => '10',
+                                        '12' => '12',
                                         '14' => '14',
                                         'PP' => 'PP',
                                         'P' => 'P',
@@ -238,7 +244,11 @@ class CampistaForm extends Component implements HasForms
 
 
 
-                            ])->columnSpanFull()->columns(2)->addActionLabel( 'Adicionar novo familiar' ),
+                            ])
+                            ->columnSpanFull()
+                            ->columns(2)
+                            ->minItems(1)
+                            ->addActionLabel( 'Adicionar novo familiar' ),
                         Grid::make('Endereço')
                             ->columns([
                                 'default' => 1,
